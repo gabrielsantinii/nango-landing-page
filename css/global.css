@@ -123,6 +123,7 @@ a:hover {
 
 p {
   color: var(--secondary-text);
+  font-size: 12px;
 }
 
 h1,
@@ -148,5 +149,9 @@ h4 {
 
   main {
     padding-top: 0px;
+  }
+
+  p {
+    font-size: 22px;
   }
 }

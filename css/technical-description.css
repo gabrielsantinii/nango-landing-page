@@ -31,10 +31,10 @@
   text-align: center;
   flex-direction: column;
 
-  min-width: 350px;
-  max-width: 350px;
-  min-height: 350px;
-  max-height: 350px;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 300px;
+  max-height: 300px;
 
   transition: 180ms all;
   cursor: pointer;
@@ -73,6 +73,15 @@
     align-items: center;
     min-width: 100%;
     margin-top: 80px;
+  }
+
+  .technical-description-container
+    .technical-description-cards-wrapper
+    .technical-description-card {
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 350px;
+    max-height: 350px;
   }
 }
 
