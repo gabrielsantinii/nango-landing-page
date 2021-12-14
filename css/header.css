@@ -30,6 +30,7 @@ header {
 header #header-logo {
   width: 126px;
   height: 34px;
+  cursor: pointer;
 }
 
 header #header-links-wrapper {
