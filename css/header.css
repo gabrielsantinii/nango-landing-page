@@ -58,6 +58,12 @@ header #registry-header-btn {
 header #burger-menu {
   display: flex;
   margin-left: 17px;
+  cursor: pointer;
+  transition: 180ms all;
+}
+
+header #burger-menu:hover, #burger-menu:active {
+  filter: brightness(0.3);
 }
 
 @media (min-width: 1150px) {
