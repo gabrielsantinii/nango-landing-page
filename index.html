@@ -20,24 +20,34 @@
   <body>
     <div class="side-menu-container">
       <div class="close-icon-container" id="close-icon-menu">
-        <img src="assets/icons/close-icon.svg" alt="Fechar" />
+        <img src="assets/icons/close-icon.svg" alt="Fechar"  />
       </div>
       <div class="side-menu-links-wrapper">
-        <a href="" target="_blank" class="side-menu-link">Features</a>
-        <a href="" target="_blank" class="side-menu-link">Sobre</a>
-        <a href="" target="_blank" class="side-menu-link">Preços</a>
-        <a href="" target="_blank" class="side-menu-link">Depoimentos</a>
+        <a href="" target="_blank" class="side-menu-link features-link"
+          >Features</a
+        >
+        <a href="" target="_blank" class="side-menu-link about-link">Sobre</a>
+        <a href="" target="_blank" class="side-menu-link prices-link">Preços</a>
+        <a href="" target="_blank" class="side-menu-link evidences-link"
+          >Depoimentos</a
+        >
       </div>
     </div>
     <div class="wrapper">
       <div class="header-background">
         <header>
-          <img src="assets/images/logo.png" alt="NANGO" id="header-logo" />
+          <img src="assets/images/logo.png" alt="NANGO" id="header-logo" class="home-link" />
           <div id="header-links-wrapper">
-            <a href="" target="_blank" class="header-link">Features</a>
-            <a href="" target="_blank" class="header-link">Sobre</a>
-            <a href="" target="_blank" class="header-link">Preços</a>
-            <a href="" target="_blank" class="header-link">Depoimentos</a>
+            <a href="" target="_blank" class="header-link features-link"
+              >Features</a
+            >
+            <a href="" target="_blank" class="header-link about-link">Sobre</a>
+            <a href="" target="_blank" class="header-link prices-link"
+              >Preços</a
+            >
+            <a href="" target="_blank" class="header-link evidences-link"
+              >Depoimentos</a
+            >
           </div>
           <button class="btn" id="registry-header-btn">
             Registre sua instituição
@@ -52,7 +62,7 @@
     </div>
     <main>
       <div class="wrapper">
-        <section class="section-container">
+        <section class="section-container" id="home-section">
           <article class="section-content">
             <h1 class="section-title">Inove na forma de ensinar.</h1>
             <p class="section-description">
@@ -85,7 +95,7 @@
       </section>
 
       <div class="wrapper">
-        <section class="section-container">
+        <section class="section-container" id="features-section">
           <article class="section-content">
             <span class="section-tag">Organização é tudo</span>
             <h1 class="section-title">Organize os materiais de sua classe.</h1>
@@ -157,7 +167,7 @@
         </section>
       </div>
 
-      <div class="wrapper">
+      <div class="wrapper" id="about-section">
         <section class="section-container technical-description-container">
           <article class="section-content technical-description-content">
             <h1 class="section-title">Nosso modo de trabalho.</h1>
@@ -227,4 +237,5 @@
   <script src="js/anchors.js" type="module"></script>
   <script src="js/technical-cards.js" type="module"></script>
   <script src="js/side-menu.js" type="module"></script>
+  <script src="js/navigation.js" type="module"></script>
 </html>

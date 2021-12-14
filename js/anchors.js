@@ -5,5 +5,3 @@ anchorElements.forEach((anchor) => {
     e.preventDefault();
   });
 });
-
-
