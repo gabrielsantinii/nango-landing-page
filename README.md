@@ -6,7 +6,7 @@
 
 Esta é a aplicação landing page de exposição das features da plataforma Nango. Disponível em: 
 
-## Tecnologias
+## Tecnologias utilizadas
 
 - HTML;
 - CSS;
@@ -22,7 +22,7 @@ A estruturação das pastas é simples:
     ├── js                     # As automações e interações com usuário são os arquivos .js, os quais são armazenados nesta pasta. 
     └── index.html             # Arquivo base do projeto, reúne todos os outros diretórios. Por ser apenas uma paǵina, optou-se por utilizar index na raíz.
 
-## Inicializar aplicação
+## Inicialização da aplicação
 
 Para iniciar, não é necessário instalar nenhum pacote/biblioteca. Se estiveres utilizando o VSCode, recomendamos instalar a extensão Live Server.
 Você pode encontrar mais sobre isso neste [link](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
