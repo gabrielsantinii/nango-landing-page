@@ -1,10 +1,53 @@
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/Metropolis-Thin.otf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/Metropolis-Light.otf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/Metropolis-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/Metropolis-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/Metropolis-SemiBold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/Metropolis-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/Metropolis-ExtraBold.otf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("../assets/fonts/Metropolis-Black.otf");
+  font-weight: 900;
+}
+
 :root {
   --text: #828282;
   --background: #ffffff;
+  --alert: #ff4b4b;
 }
 
 * {
-  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-family: "Metropolis", sans-serif;
 }
 
 body {
@@ -23,4 +66,31 @@ body {
   max-width: 1108px;
   padding-bottom: 90px;
   padding-top: 57px;
+}
+
+.btn {
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  transition: 180ms all;
+  border-radius: 8px;
+}
+
+.btn:active {
+  outline: 0;
+  border: none;
+}
+
+.btn:hover {
+  filter: brightness(0.9);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+  transition: 180ms all;
+}
+
+a:hover {
+  filter: brightness(0.1);
 }

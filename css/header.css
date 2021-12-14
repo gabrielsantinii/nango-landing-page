@@ -4,25 +4,35 @@ header {
   height: 48px;
 }
 
-#header-logo {
+header #header-logo {
   width: 179px;
   height: 48px;
 }
 
-#header-links-wrapper {
-  min-width: 100%;
+header #header-links-wrapper {
+  width: 100%;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.header-link {
-  text-decoration: none;
-  color: var(--text);
+header #header-links-wrapper .header-link {
   font-size: 18px;
 }
 
-#header-links-wrapper .header-link:not(:first-child) {
+header #header-links-wrapper .header-link:not(:first-child) {
   margin-left: 50px;
+}
+
+header #registry-header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  font-size: 18px;
+  padding: 12px;
+  background: var(--alert);
+  color: var(--background);
+  white-space: nowrap;
 }
