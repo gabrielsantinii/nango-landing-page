@@ -1,0 +1,25 @@
+.demonstration-container {
+  background: var(--secondary-text);
+  min-width: 100vw;
+  height: 712px;
+  position: relative;
+  overflow: hidden;
+}
+.demonstration-container .demonstration-image {
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 80%;
+  max-width: var(--max-width);
+}
+.demonstration-container .background-complement {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

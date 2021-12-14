@@ -2,6 +2,7 @@ header {
   display: flex;
   align-items: center;
   height: 48px;
+  min-width: 100%;
 }
 
 header #header-logo {
