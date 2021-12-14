@@ -4,7 +4,7 @@
 
 ## Landing Page
 
-Esta é a aplicação landing page de exposição das features da plataforma Nango. Disponível em: 
+Esta é a aplicação landing page de exposição das features da plataforma Nango. Disponível em: https://gabrielsantinii.github.io/nango-landing-page/
 
 ## Tecnologias utilizadas
 
