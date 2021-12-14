@@ -1,13 +1,14 @@
 .demonstration-container {
   background: var(--secondary-text);
   min-width: 100vw;
-  height: 712px;
+  /* height: 185px; */
+  height: 50vw;
   position: relative;
   overflow: hidden;
 }
 .demonstration-container .demonstration-image {
   position: absolute;
-  bottom: -5%;
+  top: 22%;
   left: 50%;
   transform: translate(-50%, 0);
   width: 80%;
@@ -22,4 +23,10 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1150px) {
+  .demonstration-container {
+    height: 712px;
+  }
 }

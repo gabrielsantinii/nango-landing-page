@@ -24,18 +24,18 @@ header {
 
   height: 48px;
   width: 100%;
-  max-width: var(--max-width);
+  max-width: 90%;
 }
 
 header #header-logo {
-  width: 179px;
-  height: 48px;
+  width: 126px;
+  height: 34px;
 }
 
 header #header-links-wrapper {
   width: 100%;
+  display: none;
 
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -53,4 +53,27 @@ header #registry-header-btn {
   background: var(--alert);
   color: var(--background);
   white-space: nowrap;
+}
+header #burger-menu {
+  display: flex;
+  margin-left: 17px;
+}
+
+@media (min-width: 1150px) {
+  header {
+    max-width: var(--max-width);
+  }
+
+  header #burger-menu {
+    display: none;
+  }
+
+  header #header-links-wrapper {
+    display: flex;
+  }
+
+  header #header-logo {
+    width: 179px;
+    height: 48px;
+  }
 }

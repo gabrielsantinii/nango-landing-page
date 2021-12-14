@@ -1,8 +1,9 @@
 .section-container {
-  padding-top: 142px;
-  padding-bottom: 142px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   display: flex;
   align-items: center;
+  flex-direction: column-reverse;
   justify-content: space-between;
   width: 100%;
 
@@ -10,14 +11,14 @@
 }
 
 .section-container .section-illustration {
-  width: 500px;
-  height: 500px;
+  width: 250px;
+  height: 250px;
 }
 
 /* different illustration resizing for one section */
 .section-container #promova-o-trabalho-em-equipe-illustration {
-  width: 560px;
-  height: 600px;
+  width: 270px;
+  height: 290px;
 }
 
 .section-container .section-content {
@@ -32,11 +33,13 @@
   font-weight: 500;
   color: var(--secondary-text);
   margin-bottom: 24px;
+  font-size: 11px;
+  margin-top: 10px;
 }
 
 .section-container .section-content .section-title {
-  font-size: 96px;
-  line-height: 96px;
+  font-size: 50px;
+  line-height: 50px;
   margin: 0;
   padding: 0;
   font-weight: 700;
@@ -83,4 +86,34 @@
   color: var(--background);
   padding: 18px;
   margin-right: 5px;
+}
+
+@media (min-width: 1150px) {
+  .section-container {
+    flex-direction: row;
+
+    padding-top: 142px;
+    padding-bottom: 142px;
+  }
+
+  .section-container .section-illustration {
+    width: 500px;
+    height: 500px;
+  }
+
+  .section-container .section-content .section-title {
+    font-size: 96px;
+    line-height: 96px;
+  }
+
+  /* different illustration resizing for one section */
+  .section-container #promova-o-trabalho-em-equipe-illustration {
+    width: 560px;
+    height: 600px;
+  }
+
+  .section-container .section-content .section-tag {
+    font-size: 22px;
+    margin-top: 0px;
+  }
 }

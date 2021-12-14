@@ -45,8 +45,8 @@
   --background: #ffffff;
   --alert: #ff4b4b;
   --highlight: #2461ff;
-  --success: #00FF0A;
-  --warning: #FFC700;
+  --success: #00ff0a;
+  --warning: #ffc700;
   --max-width: 1110px;
 }
 
@@ -75,11 +75,12 @@ main {
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding-top: 15px;
 }
 
 .wrapper {
   width: 100%;
-  max-width: var(--max-width);
+  max-width: 90%;
   display: flex;
   justify-content: center;
   align-self: center;
@@ -94,7 +95,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
+  font-size: 11px;
   padding: 12px;
 }
 
@@ -121,6 +122,20 @@ p {
   color: var(--secondary-text);
 }
 
-.reverse {
-  flex-direction: row-reverse;
+@media (min-width: 1150px) {
+  .wrapper {
+    max-width: var(--max-width);
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  main {
+    padding-top: 0px;
+  }
 }
