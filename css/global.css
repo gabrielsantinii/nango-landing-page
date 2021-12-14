@@ -41,13 +41,16 @@
 
 :root {
   --text: #828282;
+  --secondary-text: #bdbdbd;
   --background: #ffffff;
   --alert: #ff4b4b;
+  --highlight:#2461ff;
 }
 
 * {
   font-weight: 400;
   font-family: "Metropolis", sans-serif;
+  color: var(--text);
 }
 
 body {
@@ -74,6 +77,11 @@ body {
   cursor: pointer;
   transition: 180ms all;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 12px;
 }
 
 .btn:active {
@@ -93,4 +101,8 @@ a {
 
 a:hover {
   filter: brightness(0.1);
+}
+
+p {
+  color: var(--secondary-text);
 }

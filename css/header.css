@@ -26,12 +26,7 @@ header #header-links-wrapper .header-link:not(:first-child) {
 }
 
 header #registry-header-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-left: auto;
-  font-size: 18px;
-  padding: 12px;
   background: var(--alert);
   color: var(--background);
   white-space: nowrap;
