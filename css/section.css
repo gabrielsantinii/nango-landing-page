@@ -37,7 +37,7 @@
   margin-top: 10px;
 }
 
-.section-container .section-content .section-title {
+.section-title {
   font-size: 50px;
   line-height: 50px;
   margin: 0;
@@ -101,7 +101,7 @@
     height: 500px;
   }
 
-  .section-container .section-content .section-title {
+  .section-title {
     font-size: 96px;
     line-height: 96px;
   }

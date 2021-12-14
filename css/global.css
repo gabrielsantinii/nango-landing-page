@@ -44,9 +44,12 @@
   --secondary-text: #bdbdbd;
   --background: #ffffff;
   --alert: #ff4b4b;
+  --alert-background: rgba(255, 75, 75, 0.05);
   --highlight: #2461ff;
+  --highlight-background: rgba(36, 97, 255, 0.05);
   --success: #00ff0a;
   --warning: #ffc700;
+  --warning-background: rgba(255, 199, 0, 0.05);
   --max-width: 1110px;
 }
 
@@ -120,6 +123,14 @@ a:hover {
 
 p {
   color: var(--secondary-text);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: 1150px) {
