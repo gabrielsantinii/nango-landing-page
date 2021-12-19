@@ -9,10 +9,10 @@ const sectionByLinks = {
     links: document.querySelectorAll(".about-link"),
     section: document.querySelector("#about-section"),
   },
-  prices: {
-    links: document.querySelectorAll(".prices-link"),
-    section: document.querySelector("#prices-section"),
-  },
+  // prices: {
+  //   links: document.querySelectorAll(".prices-link"),
+  //   section: document.querySelector("#prices-section"),
+  // },
   evidences: {
     links: document.querySelectorAll(".evidences-link"),
     section: document.querySelector("#evidences-section"),

@@ -21,14 +21,19 @@
   <body>
     <div class="side-menu-container">
       <div class="close-icon-container" id="close-icon-menu">
-        <img src="assets/icons/close-icon.svg" alt="Fechar"  />
+        <img src="assets/icons/close-icon.svg" alt="Fechar" />
       </div>
       <div class="side-menu-links-wrapper">
         <a href="" target="_blank" class="side-menu-link features-link"
           >Features</a
         >
         <a href="" target="_blank" class="side-menu-link about-link">Sobre</a>
-        <a href="" target="_blank" class="side-menu-link prices-link">Preços</a>
+        <a
+          href=""
+          target="_blank"
+          class="side-menu-link prices-link redirect-app"
+          >Preços</a
+        >
         <a href="" target="_blank" class="side-menu-link evidences-link"
           >Depoimentos</a
         >
@@ -37,7 +42,12 @@
     <div class="wrapper">
       <div class="header-background">
         <header>
-          <img src="assets/images/logo.png" alt="NANGO" id="header-logo" class="home-link" />
+          <img
+            src="assets/images/logo.png"
+            alt="NANGO"
+            id="header-logo"
+            class="home-link"
+          />
           <div id="header-links-wrapper">
             <a href="" target="_blank" class="header-link features-link"
               >Features</a
@@ -46,11 +56,11 @@
             <a href="" target="_blank" class="header-link prices-link"
               >Preços</a
             >
-            <a href="" target="_blank" class="header-link evidences-link"
+            <!-- <a href="" target="_blank" class="header-link evidences-link"
               >Depoimentos</a
-            >
+            > -->
           </div>
-          <button class="btn" id="registry-header-btn">
+          <button class="btn redirect-app" id="registry-header-btn">
             Registre sua instituição
           </button>
           <img
@@ -70,7 +80,9 @@
               A experiência de aprender deve ser única.
             </p>
             <div class="section-links">
-              <button class="btn" id="free-version-btn">Versão gratuita</button>
+              <button class="btn redirect-app" id="free-version-btn">
+                Versão gratuita
+              </button>
               <p class="link-description">— Web, iOS e Android</p>
             </div>
           </article>
@@ -98,7 +110,7 @@
       <div class="wrapper">
         <section class="section-container" id="features-section">
           <article class="section-content">
-            <span class="section-tag">Organização é tudo</span>
+            <span class="section-tag">Organização fácil</span>
             <h1 class="section-title">Organize os materiais de sua classe.</h1>
             <p class="section-description">
               A disposição dos materiais com qualidade é essencial. Planeje suas
@@ -106,7 +118,10 @@
               organizada.
             </p>
             <div class="section-links">
-              <button class="btn read-more-btn" id="read-more-btn-1">
+              <button
+                class="btn read-more-btn redirect-app"
+                id="read-more-btn-1"
+              >
                 Quero saber mais
               </button>
             </div>
@@ -130,7 +145,10 @@
               colaboração efetiva.
             </p>
             <div class="section-links">
-              <button class="btn read-more-btn" id="read-more-btn-2">
+              <button
+                class="btn read-more-btn redirect-app"
+                id="read-more-btn-2"
+              >
                 Quero saber mais
               </button>
             </div>
@@ -154,8 +172,11 @@
               modernos como a gamificação, as atividades, mais do que nunca,
               solidificam conhecimento.
             </p>
-            <div class="section-links">
-              <button class="btn read-more-btn" id="read-more-btn-3">
+            <div class="section-links redirect-app">
+              <button
+                class="btn read-more-btn redirect-app"
+                id="read-more-btn-3"
+              >
                 Quero saber mais
               </button>
             </div>
@@ -227,7 +248,8 @@
               </div>
               <h2 class="technical-description-card-title">Javascript puro</h2>
               <p class="technical-description-card-resume">
-                Nossa flexibilidade na experiência do usuário é essencial.
+                Nossos desenvolvedores são especialistas na experiência do
+                usuário.
               </p>
             </div>
           </div>
@@ -239,4 +261,5 @@
   <script src="js/technical-cards.js" type="module"></script>
   <script src="js/side-menu.js" type="module"></script>
   <script src="js/navigation.js" type="module"></script>
+  <script src="js/redirect-app.js" type="module"></script>
 </html>
